@@ -105,7 +105,7 @@ static const NSUInteger PRELOAD_BUFFER = 1; // small time buffer added to the lo
     targeting.userDataKeywords = self.banner.userDataKeywords;
     [super loadAdWithTargeting:targeting];
 
-    [[ZAnalytics sharedManager] trackBannerRequested];
+//    [[ZAnalytics sharedManager] trackBannerRequested];
 }
 
 - (NSTimeInterval)getLoadDelay {
