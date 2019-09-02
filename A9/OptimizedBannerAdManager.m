@@ -7,7 +7,6 @@
 //
 
 #import "OptimizedBannerAdManager.h"
-#import "ZAnalytics.h"
 #import "MPAdTargeting.h"
 
 // provides access to base class private members
