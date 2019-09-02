@@ -7,17 +7,11 @@
 //
 #import "InMobiNativeAdAdapter.h"
 #import <InMobiSDK/IMNative.h>
-#if __has_include(<MoPub/MoPub.h>)
-    #import <MoPub/MoPub.h>
-#elif __has_include(<MoPubSDKFramework/MoPub.h>)
-    #import <MoPubSDKFramework/MoPub.h>
-#else
-    #import "MPNativeAdError.h"
-    #import "MPNativeAdConstants.h"
-    #import "MPAdDestinationDisplayAgent.h"
-    #import "MPCoreInstanceProvider.h"
-    #import "MPLogging.h"
-#endif
+#import "MPNativeAdError.h"
+#import "MPNativeAdConstants.h"
+#import "MPAdDestinationDisplayAgent.h"
+#import "MPCoreInstanceProvider.h"
+#import "MPLogging.h"
 
 /*
  * Default keys for InMobi Native Ads
