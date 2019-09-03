@@ -1,0 +1,4 @@
+framework module SafeDK_iOS_Client {
+    header "SafeDK.h"
+    export *
+}
